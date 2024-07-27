@@ -14,7 +14,6 @@ RUN apt-get update \
         libleptonica-dev \
         libtool \
         zlib1g-dev \
-        ffmpeg \
     && mkdir src \
     && cd src \
     && curl -L https://github.com/agl/jbig2enc/archive/ea6a40a2cbf05efb00f3418f2d0ad71232565beb.tar.gz --output jbig2.tgz \
